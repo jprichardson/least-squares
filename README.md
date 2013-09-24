@@ -5,16 +5,23 @@ JavaScript component for linear least squares regression analysis.
 
 
 
-Node.js/Browserify
-------------------
+Install
+-------
+
+### Node.js/Browserify
 
     npm install --save least-squares
 
 
-Component
----------
+### Component
 
     component install jprichardson/least-squares
+
+### Script
+
+```html
+<script src="/path/to/d3-chart.js"></script>
+```
 
 
 Method
