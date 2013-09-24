@@ -38,8 +38,8 @@ Example
 var lsq = require('least-squares')
 
 //(1, 6), (2,5), (3,7), (4,10)
-X = [1,2,3,4]
-Y = [6,5,7,10]
+var X = [1,2,3,4]
+var Y = [6,5,7,10]
 
 var ret = {}
 var f = lsq(X, Y, ret)
