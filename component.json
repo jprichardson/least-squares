@@ -1,0 +1,9 @@
+{
+  "name": "least-squares",
+  "version": "0.0.1",
+  "description": "Linear least squares regression analysis.",
+  "keywords": ["least", "squares", "linear", "regression", "statistics"],
+  "scripts": [
+    "lib/least-squares.js"
+  ]
+}
