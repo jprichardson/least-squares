@@ -24,6 +24,7 @@ Install
 ```
 
 
+
 Method
 -------
 
@@ -32,10 +33,11 @@ Method
 - returns a function that computes y = mx + b
 
 inputs:
-`X`: array of x values
-`Y`: array of y values
-`computeError`: compute standard error (optional)
-`returnObject`: object with fields `b`, `m`, and `bErr`, `mErr` if `computeError` is true
+- `X`: array of x values
+- `Y`: array of y values
+- `computeError`: compute standard error (optional)
+- `returnObject`: object with fields `b`, `m`, and `bErr`, `mErr` if `computeError` is true
+
 
 
 Example
