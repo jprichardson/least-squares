@@ -20,7 +20,7 @@ Install
 ### Script
 
 ```html
-<script src="/path/to/d3-chart.js"></script>
+<script src="/path/to/least-squares.js"></script>
 ```
 
 
