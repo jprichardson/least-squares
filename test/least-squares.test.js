@@ -33,4 +33,15 @@ describe('+ lsq', function() {
       NEQ (ret.bErr, undefined) 
     })
   })
+
+  describe('> when returnObject is not passed', function() {
+    it('should just return the function', function() {
+      var X = [1,2,3,4]
+      var Y = [6,5,7,10]
+
+      var ret = {}
+      var f = lsq(X, Y)
+      EQ (f(3.6), 8.54)
+    })
+  })
 })
